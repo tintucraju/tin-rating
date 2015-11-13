@@ -1,5 +1,4 @@
 ;(function($){
-
     $.fn.getRating = function($args){
     	return $(this).attr("rating");
     };
