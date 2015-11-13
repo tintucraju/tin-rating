@@ -39,7 +39,7 @@
     	$(this).find("img").on('mousemove',function(){
     		if($(this).parent().attr("locked")=="true")
     		return;	
-			$starHtml="";
+		$starHtml="";
     		$upto = $(this).index()+1;
     		$counter = 0;
     		$(this).parent().find("img").each(function(){
@@ -49,7 +49,6 @@
     		    else 
     		    $(this).attr("src",'star-off.png');	
     		});
-
     	});
     }
 })(jQuery)
